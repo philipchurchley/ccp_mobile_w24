@@ -111,6 +111,19 @@ ol {
    list-style-type: decimal;
 }
 
+img,
+video {
+   width: 70%;
+   max-width: 300px;
+   object-fit: scale-down;
+}
+
+img.big {
+   width: 50%;
+   max-width: 500px
+}
+
+
 @media (prefers-reduced-motion) {
    video {
       display: none;
